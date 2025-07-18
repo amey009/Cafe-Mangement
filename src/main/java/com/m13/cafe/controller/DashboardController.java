@@ -10,7 +10,7 @@ import java.util.Map;
 @RequestMapping("/dashboard")
 public interface DashboardController {
 
-    //git
+
     @GetMapping("/details")
     ResponseEntity<Map<String,Object>> getDetails();
 }
